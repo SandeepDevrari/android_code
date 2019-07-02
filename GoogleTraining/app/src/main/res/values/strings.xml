@@ -1,0 +1,207 @@
+<resources>
+    <string name="app_name">GoogleTraining</string>
+    <string name="linkeToClick"><a herf="http://www.google.co.in">UI and Event</a></string>
+    <string name="scrollDownTxt">we work for making better tomorrow\nbut when tomorrow comes\ninstead of enjoying again we start\nthinking for better tomorrow\nthts is life\n
+if silence is meant to be the best for all situations...then why we all get so hurt when people don\'t talk to us??
+one of the very true &amp; greatest illusions of life is that....\nwe always believe there is more time in tomorrow then today"
+************************************************************************************\nwe work for making better tomorrow
+but when tomorrow comes\ninstead of enjoying again we start\nthinking for better tomorrow.\nthts life\n************************************************************************************
+when we were small we laughed less\n
+but there was infinite hidden happiness\n
+as we grow up we learn to laugh more to hide the unspoken sadness\n
+*************************************************************************************\n
+perfect pearl:\n
+rememeber that\nno one will understand you perfectly in life\n
+just give credit to those who have atleast tried to do it...\n
+**************************************************************************************\n
+a heart dies when it is not able to share its feelings..but a heart kills itself\n
+when another heart doesn\'t understands its feelings....\n
+***************************************************************************************\n
+loving someone doesn\'t need a reason\n
+if u can explain why u love someone it\'s called \'like\'\n
+if u can\'t explain it\'s simply called \'love\'\n
+****************************************************************************************\n
+heart melting words:\n
+tears will\'nt come when u miss a person,\n
+it comes when u don\'t want to miss a person....just feel it!!!\n
+********************************************************\n
+beautiful truth against gravity:\n
+the heart feels light when someone is in it.\n
+but it feels very heavy when someone leaves it......\n
+***********************************************************\n
+sharing problems &amp; asking for help doesn\'t mean that we are weak or incompetent,\n
+it usually indicates an advanced level of trust.......\n
+*****************************************************************\n
+walking alone is not difficult...but\n
+when we walked a mile with someone,\n
+then coming back alone is more difficult....\n
+******************************************************************\n
+a very nice observation:\n
+the world\'s best friends never have the same nature\n
+they just have the best \'understanding\' of their \'differences\'\n
+************************************************\n
+don\'t judge a person by what other\'s say\n
+the person may be true to you but not to others\n
+because the same sun which melts the ice hardens the clay too..\n
+************************************************************************\n
+don\'t feel bitter that people remember you only when they need you\n
+feel privileged that you are like a candle that comes to mind when there\'s a power failure\n
+************************************************************************\n
+truth of life:\n
+we make them cry who care for us,\n
+we cry for them who never care for us\n
+&amp; we care for them who will never cry for us...\n
+*************************************************************************\n
+smooth roads never make good drivers\n
+clear sky never make good pilots\n
+problem free life never makes strong person\n
+so don\'t ask life \'why me?\'\n
+say \'try me\'......\n
+******************************************************************************************************\n
+you can fall in love with the personality of any one\n
+but remember finally you have to live with the character &amp; not with the personality....\n
+*******************************************************************************************************\n
+mistakes are painful when they happen\n
+but years later a collection of mistakes is called experience\n
+which leads you to success....\n
+*********************************************************************\n
+life is like a piano.\n
+shite keys are happy moments &amp; black keys are sad moments\n
+but remember both keys are played together to give sweet musicc...\n
+**********************************************************************\n
+often we stand at life's crossroads &amp; view what we think is the end.\n
+but GOD has much vision &amp;\n
+he tells us 'relax my child' its just a 'bend'...\n
+******************************************************\n
+we live in our dreams,but dreams may die.\n
+don't get shattered,never ever cry;\n
+the world is big &amp; has lots to give\n
+pick up a new dream\n
+thats the way to live...\n
+*******************************************************\n
+when you feel you are alone in a crowd\n
+when you think no one can understand you\n
+when you hate your life\n
+just close your eyes &amp; see her face who loves you more than anyone else\n
+who cares for you in loneliness &amp; dies for you when you cry\n
+she is no one but your sweet loving MOM...\n
+**********************************************************************************\n
+the best relationship is not the one which is free from problems &amp; misunderstandings\n
+its the one where a sorry &amp; a smile can make everything perfect as before...\n
+**********************************************************************************\n
+a good relation does not depend on how good understanding we have\n
+but it depends on how better we avoid misunderstandings...\n
+*************************************************************************************\n
+care is the sweetest form of love when someone says take care\n
+it really means that you will stay in their heart till its last beat...\n
+*************************************************************************************\n
+one can cross an ocean without wetting his legs\n
+but\n
+cannot cross his love &amp; life without wetting his eyes...\n
+*****************************************************************************************\n
+every one has a 'best friend' during each stage of life\n
+but only lucky ones have the same friend in all stages of life...\n
+********************************************************************************************\n
+Life is different than teacher,A Teacher teaches lesson. then keeps the exam. But the life keeps the exam first then teaches the lesson...
+**********************************************************************************************\n
+Affection Is Not Measured When Both Take Care Of Each Other It Is Measured When One Ignores And The Other Still Continues To Care...
+*******************************************************************************************\n
+In life, we seldom find true love if ever you find it, hold on to it and never let it go, for it is the only true thing in life...
+*****************************************************************************************\n
+Thoughts lead on to purpose purpose leads into actions actions form habits habits decide character and\n
+character fixes our destiny...\n
+*****************************************************************************************\n
+It takes only a minute to get a crush on someone, an\n
+hour to like someone, and a day to love someone-but it\n
+takes a lifetime to forget someone...\n
+******************************************************************************************\n
+Dream what you want to dream, go where you want to go,\n
+be what you want to be. Because you have only one life and\n
+one chance to do all the things you want to do...\n
+*********************************************************************************************\n
+Never allow someone to be your priority when you're just an option for them...\n
+*********************************************************************************************\n
+The real art of conversation is not only to say the right thing at the right time, but also to leave unsaid the wrong thing at the tempting moment...</string>
+    <string name="storyBeauty">Beauty and the Beast is a 2017 American musical romantic fantasy film directed by Bill Condon. Belle, a village girl, embarks on a journey to save her father from a creature that has locked him in his dungeon. Eventually, she learns that the creature is an enchanted prince who has been cursed.
+</string>
+    <string name="ExplicitCall">CalledFromParent</string>
+    <string-array name="rotateSpinArray">
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>F</item>
+        <item>G</item>
+        <item>H</item>
+    </string-array>
+    <string name="title_activity_fragment_concept">FragmentConceptActivity</string>
+
+    <string-array name="selectorArray">
+        <item>United_Kingdom</item>
+        <item>Austria</item>
+        <item>Bangladesh</item>
+
+    </string-array>
+    <string name="United_Kingdom">Combining the crosses of the patron saints of England, Wales, and Scotland, the Union Jack as it is sometimes called is one of the oldest flags in the world having been around since 1801.</string>
+    <string name="Austria">t has been said that when Duke Leopold V. of Austria returned from war his white battledress was soaked with blood. When he took off his belt, however, the cloth underneath was still white. Some will tell you to this day that this is what inspired the red and white stripes. At any rate, this flag is one of the few that are older than the Union Jack as it dates back to the year 1230.</string>
+    <string name="Bangladesh">As you may have noticed, the red circle on the flag is slightly off center. This is so that when the flag is flying on a mast it will appear to be in the middle. The green symbolized the country of Bangladesh with its green geography and youthfulness while the red symbolizes the rising sun and the sacrifices its citizens have made.</string>
+    <string name="title_activity_image_view">ActivityImageView</string>
+    <string name="choose_a_dessert">Choose a dessert.</string>
+    <string name="donuts">Donuts are glazed and sprinkled with candy.</string>
+    <string name="ice_cream_sandwiches">Ice cream sandwiches have
+        chocolate wafers and vanilla filling</string>
+    <string name="froyo">FroYo is premium self-serve frozen yogurt.</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_placeholder">Title</string>
+    <string name="news_placeholder">News</string>
+    <string name="sports_info_placeholder">Here is some news</string>
+    <string-array name="sports_titles">
+        <item>Baseball</item>
+        <item>Badminton</item>
+        <item>Basketball</item>
+        <item>Bowling</item>
+        <item>Cycling</item>
+        <item>Golf</item>
+        <item>Running</item>
+        <item>Soccer</item>
+        <item>Swimming</item>
+        <item>Table Tennis</item>
+        <item>Tennis</item>
+    </string-array>
+
+    <string-array name="sports_info">
+        <item>Here is some Baseball news!</item>
+        <item>Here is some Badminton news!</item>
+        <item>Here is some Basketball news!</item>
+        <item>Here is some Bowling news!</item>
+        <item>Here is some Cycling news!</item>
+        <item>Here is some Golf news!</item>
+        <item>Here is some Running news!</item>
+        <item>Here is some Soccer news!</item>
+        <item>Here is some Swimming news!</item>
+        <item>Here is some Table Tennis news!</item>
+        <item>Here is some Tennis news!</item>
+    </string-array>
+    <array name="sports_images">
+        <item>@drawable/img_baseball</item>
+        <item>@drawable/img_badminton</item>
+        <item>@drawable/img_basketball</item>
+        <item>@drawable/img_bowling</item>
+        <item>@drawable/img_cycling</item>
+        <item>@drawable/img_golf</item>
+        <item>@drawable/img_running</item>
+        <item>@drawable/img_soccer</item>
+        <item>@drawable/img_swimming</item>
+        <item>@drawable/img_tabletennis</item>
+        <item>@drawable/img_tennis</item>
+    </array>
+    <string-array name="words">
+        <item>Android</item>
+        <item>Activity</item>
+        <item>ContentProvider</item>
+        <item>ContentResolver</item>
+    </string-array>
+</resources>

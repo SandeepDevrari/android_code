@@ -1,0 +1,17 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="ThemeOverlay.AppCompat.Dark">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!--style name="NoActionBar" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="NCprimary">@color/NCprimary</item>
+        <item name="NCprimaryDark">@color/NCprimaryDark</item>
+        <item name="NCAccent">@color/NCAccent</item>
+    </style-->
+
+</resources>

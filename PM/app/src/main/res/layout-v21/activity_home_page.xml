@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/lay1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.angry.pm.HomePage">
+
+    <Button
+        android:id="@+id/currentloc"
+        style="@android:style/Widget.DeviceDefault.Button.Borderless"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="87dp"
+        android:background="@drawable/semicircle"
+        android:elevation="5dp" />
+
+    <Button
+        android:id="@+id/otherloc"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/currentloc"
+        android:layout_below="@+id/currentloc"
+        android:layout_marginTop="13dp"
+        android:background="@drawable/semi"
+        android:elevation="5dp" />
+</RelativeLayout>

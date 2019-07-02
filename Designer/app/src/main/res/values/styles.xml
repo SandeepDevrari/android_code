@@ -1,0 +1,18 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="appNameTxtStyle" parent="Widget.AppCompat.ActionBar.TabText">
+        <item name="colorPrimary">@color/helloTxtColor</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="android:text">@string/app_name</item>
+        <item name="android:textSize">@string/appNameTxtSize</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceLarge</item>
+    </style>
+
+</resources>

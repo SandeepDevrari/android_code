@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="devrari.sandeep.googletraining.HW_LifeCycle">
+
+    <TextView
+        android:id="@+id/counterTxt"
+        android:layout_width="161dp"
+        android:layout_height="99dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:text="0"
+        android:textAppearance="@android:style/TextAppearance.Material.Large"
+        android:textColor="@android:color/holo_blue_light"
+        android:textSize="70sp"
+        app:layout_constraintBottom_toTopOf="@+id/saveThisEditTxt"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.204" />
+
+    <Button
+        android:id="@+id/pressIncreaseCounter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:text="press me"
+        android:textAppearance="@android:style/TextAppearance.Material.Medium"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/saveThisEditTxt"
+        app:layout_constraintStart_toStartOf="@+id/saveThisEditTxt"
+        app:layout_constraintTop_toBottomOf="@+id/saveThisEditTxt" />
+
+    <EditText
+        android:id="@+id/saveThisEditTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="enter"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toTopOf="@+id/pressIncreaseCounter"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/counterTxt" />
+</android.support.constraint.ConstraintLayout>

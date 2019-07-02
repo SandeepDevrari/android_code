@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.angry.harley.Add_Harley"
+    android:background="@drawable/harley">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/textView1"
+        android:id="@+id/textView1"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="40dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="80dp"
+        android:backgroundTint="#8bcff3f2"
+        android:textColor="#f24d4d"
+        android:background="#fdf6f6" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/editText1"
+        android:layout_alignBottom="@+id/textView1"
+        android:layout_toRightOf="@+id/textView1"
+        android:layout_marginLeft="56dp"
+        android:layout_marginStart="56dp"
+        android:textColor="#f24242"
+        android:backgroundTint="#828aecdc"
+        android:background="#f9f9f9" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/textView2"
+        android:id="@+id/textView2"
+        android:layout_below="@+id/textView1"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_alignStart="@+id/textView1"
+        android:layout_marginTop="42dp"
+        android:textColor="#ed4a4a"
+        android:backgroundTint="#858cecdf"
+        android:background="#fbf1f1" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText2"
+        android:layout_alignBottom="@+id/textView2"
+        android:layout_alignLeft="@+id/editText1"
+        android:layout_alignStart="@+id/editText1"
+        android:backgroundTint="#8b8fece1"
+        android:textColor="#f24141"
+        android:inputType="textCapWords"
+        android:background="#f6fdfb" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/textView3"
+        android:id="@+id/textView7"
+        android:layout_marginTop="34dp"
+        android:layout_below="@+id/textView2"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_alignStart="@+id/textView2"
+        android:backgroundTint="#697a7373"
+        android:textColor="#ed4444"
+        android:background="#fcf3f3" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/textView4"
+        android:id="@+id/textView4"
+        android:layout_below="@+id/textView7"
+        android:layout_alignLeft="@+id/textView7"
+        android:layout_alignStart="@+id/textView7"
+        android:layout_marginTop="40dp"
+        android:textColor="#f24141"
+        android:backgroundTint="#8d7ce8d3"
+        android:background="#f9f5f5" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/SaveBtn"
+        android:id="@+id/button6"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="45dp"
+        android:backgroundTint="#69524c4c"
+        android:textColor="#ed1e55"
+        android:layout_alignTop="@+id/textView4"
+        android:onClick="save_Harley"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="date"
+        android:ems="10"
+        android:id="@+id/editText4"
+        android:backgroundTint="#7aa2efe6"
+        android:layout_above="@+id/textView4"
+        android:layout_alignLeft="@+id/editText2"
+        android:layout_alignStart="@+id/editText2"
+        android:textColor="#f46a6a"
+        android:background="#f1fefb" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText5"
+        android:layout_alignBottom="@+id/textView4"
+        android:layout_alignLeft="@+id/editText2"
+        android:layout_alignStart="@+id/editText2"
+        android:backgroundTint="#8492f2e3"
+        android:textColor="#f57171"
+        android:background="#f3fdfb"
+        android:inputType="textCapWords" />
+</RelativeLayout>

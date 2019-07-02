@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "174354864816",
+    "firebase_url": "https://rvtrain-b291b.firebaseio.com",
+    "project_id": "rvtrain-b291b",
+    "storage_bucket": "rvtrain-b291b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:174354864816:android:26d52481644ac1e6",
+        "android_client_info": {
+          "package_name": "devrari.sandeep.angry.rvtrain"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "174354864816-fpfpodbt3hn5o4s02lrktur9i3q5cld8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "devrari.sandeep.angry.rvtrain",
+            "certificate_hash": "46bc4634978efe4c880b749a6d434710aa62b5e4"
+          }
+        },
+        {
+          "client_id": "174354864816-png15ljnsv4fc1kiigf6d57kngu0f5eh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDBS7fd2dN96OAK4dy-m_nfXxCRM3hVcZA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "174354864816-png15ljnsv4fc1kiigf6d57kngu0f5eh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

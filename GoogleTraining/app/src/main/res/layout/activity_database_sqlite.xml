@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/DataBaseMainLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="devrari.sandeep.googletraining.ActivityDatabaseSQLite">
+
+    <TextView
+        android:id="@+id/databaseText1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Database UI"
+        android:textAlignment="center"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.033" />
+
+    <EditText
+        android:id="@+id/databaseData1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:hint="Number"
+        app:layout_constraintBottom_toTopOf="@+id/databaseData2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/databaseText1" />
+
+    <EditText
+        android:id="@+id/databaseData2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:hint="String"
+        app:layout_constraintBottom_toTopOf="@+id/databaseData1Repeat"
+        app:layout_constraintEnd_toStartOf="@+id/databaseAdd"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/databaseData1" />
+
+    <Button
+        android:id="@+id/databaseAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:text="Add"
+        app:layout_constraintBaseline_toBaselineOf="@+id/databaseData2"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <EditText
+        android:id="@+id/databaseData1Repeat"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:hint="Id"
+        app:layout_constraintBottom_toTopOf="@+id/databaseData2Modify"
+        app:layout_constraintEnd_toStartOf="@+id/databaseRemove"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/databaseData2" />
+
+    <Button
+        android:id="@+id/databaseRemove"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:text="Remove"
+        app:layout_constraintBaseline_toBaselineOf="@+id/databaseData1Repeat"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <EditText
+        android:id="@+id/databaseData2Modify"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:hint="String"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/databaseModify"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/databaseData1Repeat" />
+
+    <Button
+        android:id="@+id/databaseModify"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:text="Modify"
+        app:layout_constraintBaseline_toBaselineOf="@+id/databaseData2Modify"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</android.support.constraint.ConstraintLayout>

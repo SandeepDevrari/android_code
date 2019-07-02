@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.angry.pm.CapchaAct">
+
+    <ImageView
+        android:id="@+id/CaptchaIm"
+        android:layout_width="287dp"
+        android:layout_height="174dp"
+        app:srcCompat="@drawable/common_google_signin_btn_icon_dark"
+        tools:layout_editor_absoluteX="27dp"
+        tools:layout_editor_absoluteY="168dp" />
+
+    <RadioGroup
+        android:id="@+id/CaptchaRG"
+        android:layout_width="368dp"
+        android:layout_height="495dp"
+        tools:layout_editor_absoluteX="83dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <RadioButton
+            android:id="@+id/imNotRobot"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:text="I'm not robot"
+            android:textSize="24sp"
+            android:visibility="visible" />
+
+    </RadioGroup>
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">HARLEY</string>
+    <string name="TextView1">HARLEY DAVIDSON BIKER\'S GANG</string>
+    <string name="button1">ADD MEMBER TO GANG</string>
+    <string name="button2">REFRESH MEMBER DATA</string>
+    <string name="button3">REMOVE GANG MEMBER</string>
+    <string name="button4">SEARCH A MEMBER</string>
+    <string name="button5">QUIT</string>
+    <string name="textView1">Name</string>
+    <string name="textView2">Vehicle No</string>
+    <string name="textView3">Make(Year)</string>
+    <string name="textView4">Upload Pic</string>
+    <string name="SaveBtn">SAVE</string>
+    <string name="textView5">Select Vehicle No</string>
+    <string name="textView6">Name</string>
+    <string name="button7">UPDATE</string>
+    <string name="title_activity_update_data">UpdateData</string>
+    <string name="textView12">Enter Vehicle Number</string>
+    <string name="TextView12">Enter Vehicle Number</string>
+    <string name="textView9">Vehicle Details</string>
+    <string name="textView10">Vehicle Number</string>
+    <string name="textView11">Make(Year)</string>
+    <string name="button8">DELETE</string>
+    <string name="TextView10">Vehicle Owner</string>
+    <string name="imageButton1">11</string>
+</resources>

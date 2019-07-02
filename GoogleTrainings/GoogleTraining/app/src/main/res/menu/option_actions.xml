@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/option_say"
+        android:icon="@android:drawable/ic_menu_sort_alphabetically"
+        android:title="say"
+        app:showAsAction="never"
+        android:orderInCategory="3"/>
+    <item
+        android:id="@+id/optionNow"
+        android:icon="@android:drawable/ic_menu_mylocation"
+        android:title="now "
+        app:showAsAction="always"
+        android:orderInCategory="1"/>
+    <item
+        android:id="@+id/option_okay"
+        android:title="okay"
+        app:showAsAction="never"
+        android:orderInCategory="2"/>
+</menu>

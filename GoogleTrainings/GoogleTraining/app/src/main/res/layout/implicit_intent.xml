@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="devrari.sandeep.googletraining.ImplicitIntent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Implicit Intent"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="30dp"
+        android:textColor="#658484"
+        android:textSize="40sp"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColorHighlight="@android:color/holo_blue_bright"
+        android:textStyle="bold"
+        android:id="@+id/implicitshow"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:text="Open web"
+        android:layout_marginTop="100dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/openWeb"
+        android:onClick="callActivity"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Open Call"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:id="@+id/openCall"
+        android:onClick="callActivity"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="Open Map"
+        android:layout_marginBottom="100dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/openMap"
+        android:onClick="callActivity"/>
+
+
+</RelativeLayout>

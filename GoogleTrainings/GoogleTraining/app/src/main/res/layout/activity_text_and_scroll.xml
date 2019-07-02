@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="devrari.sandeep.googletraining.TextAndScroll">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView &amp; ScrollView"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:tooltipText="@string/app_name"
+        android:gravity="center"
+        android:textColor="#7440cf"
+        android:id="@+id/scrollText1"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Thought's Of The Day->:)"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:tooltipText="Thought Of The Day"
+        android:gravity="center"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="20dp"
+        android:textColor="#7440cf"
+        android:id="@+id/thoutOfTheDay"/>
+
+    <ScrollView
+        android:id="@+id/scrollMe"
+        android:layout_width="wrap_content"
+        android:layout_height="300dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/thoutOfTheDay"
+        android:layout_marginTop="30dp"
+        android:background="?android:attr/colorPrimaryDark"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp">
+
+        <TextView
+            android:id="@+id/scrollTxt"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/scrollDownTxt"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#fbffffff" />
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">SQLiteKeep</string>
+    <string name="activity_note">Take</string>
+</resources>

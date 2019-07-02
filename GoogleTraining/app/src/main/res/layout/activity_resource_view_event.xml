@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="devrari.sandeep.googletraining.ResourceViewEvent">
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/linkeToClick"
+        android:autoLink="web"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        android:textAppearance="?android:attr/textAppearanceLargePopupMenu"
+        android:textColor="@color/textColorRVE"
+        android:textSize="20sp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/text2"
+        android:text="Your Text"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="30sp"
+        android:textColor="#F3434F"
+        android:textStyle="bold|italic"
+        android:typeface="monospace"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="120dp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="240dp"
+        android:text="Button1"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/button_1"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="150dp"
+        android:text="Button2"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/button2"/>
+
+</RelativeLayout>

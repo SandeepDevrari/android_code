@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="devrari.sandeep.googletraining.ExplicitCall">
+
+    <TextView
+        android:id="@+id/callBack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="@android:color/darker_gray"
+        android:gravity="center_horizontal"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="Welcom here"
+        android:textColor="@android:color/background_light"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/ExplicitCallReplyTo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/ExplicitCallReplyToButton"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="43dp"
+        android:hint="reply to parent"
+        android:paddingLeft="20dp" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/ic_menu_send"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="30dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="20dp"
+        android:id="@+id/ExplicitCallReplyToButton"/>
+</RelativeLayout>

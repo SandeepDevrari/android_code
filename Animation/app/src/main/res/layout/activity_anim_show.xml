@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/lay2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_light"
+    android:visibility="visible"
+    tools:context="com.example.angry.animation.AnimShow">
+
+    <scale  xmlns:android="http://schemas.android.com/apk/res/android"
+        android:fromXScale="5"
+        android:toXScale="1"
+        android:fromYScale="5"
+        android:toYScale="1"
+        android:pivotX="50%"
+        android:pivotY="50%"
+        android:duration="1000"
+        android:fillAfter="true">
+    </scale>
+    <scale  xmlns:android="http://schemas.android.com/apk/res/android"
+        android:fromXScale="1"
+        android:toXScale="5"
+        android:fromYScale="1"
+        android:toYScale="5"
+        android:pivotX="50%"
+        android:pivotY="50%"
+        android:duration="1000"
+        android:fillAfter="true">
+    </scale>
+</RelativeLayout>
+-->
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <GridView
+            android:id="@+id/gridview"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:columnWidth="90dp"
+            android:gravity="center"
+            android:horizontalSpacing="10dp"
+            android:numColumns="auto_fit"
+            android:stretchMode="columnWidth"
+            android:verticalSpacing="10dp" />
+
+        <ImageView
+            android:id="@+id/expanded_image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="invisible" />
+    </RelativeLayout>
+
+</FrameLayout>

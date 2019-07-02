@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.angry.harley">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Android_Database_Harley">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Add_Harley" />
+        <activity android:name=".Refresh_Member_Data" />
+        <activity
+            android:name=".UpdateData"
+            android:label="@string/title_activity_update_data"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Remove_Member" />
+        <activity android:name=".Remove_Member_Search"></activity>
+    </application>
+
+</manifest>
